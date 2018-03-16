@@ -21,7 +21,7 @@ void setup()
 
 void loop() 
 {
-  int myValue = 0;
+  int myValue = 0;  // needs to be int to accept analogueRead() value
   myValue = analogRead(A0);
   
   Serial.print("The value is: ");
